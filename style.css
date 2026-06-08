@@ -36,11 +36,3 @@ header{
         border: 1px solid wheat;
         border-radius: 5px;
     }
-    footer{
-    background-color: #05649f;
-    text-align: center;
-    justify-content: center;
-    height: 65px;
-    display: flex;
-    color: white;   
-    }
