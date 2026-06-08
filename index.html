@@ -1,0 +1,62 @@
+<!--This is a comment-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flex Property</title>
+<style>
+  *{
+    margin: 0px;padding: 0px;
+  }
+
+  
+  #container{
+    background-color:lightblue;
+    border: 5px solid black;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .box{
+    margin: 5px;
+    padding: 5px;
+    border: 4px solid black;
+    height: 40px;
+    width: 40px;
+  }
+  #box1{
+    background-color: aqua;
+  }
+  #box2{
+    background-color: blanchedalmond;
+  }
+  #box3{
+    background-color: darkgoldenrod;
+  }
+  #box4{
+    background-color: rgba(79, 0, 39, 0);
+  }ko
+</style>
+</head>
+<body>
+  <div id="container">
+    <div id="box1" class="box">
+      Box1
+    </div>
+    <div id="box2" class="box">
+      Box2
+    </div>
+    <div id="box3" class="box">
+      Box3
+    </div>
+    <div id="box4" class="box">
+      Box4
+    </div>
+  </div>
+</body>
+</html>
